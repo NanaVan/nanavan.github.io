@@ -3,7 +3,9 @@
 import datetime
 
 def sayHello(name):
-  print("{:}\n{:}, hello!\nWelcome to 7V_SPACE.".format((str(datetime.datetime.now())).split('.')[0], name))
+  print((str(datetime.datetime.now())).split('.')[0] + "\n" +\
+    "{:}, hello!\n".format(name) +\
+    "Welcome to 7V_SPACE.")
   
 yourName = input("What's your name?")
 sayHello(yourName)
