@@ -3,7 +3,8 @@
 import datetime
 
 def sayHello(name):
-  print((str(datetime.datetime.now())).split('.')[0] + "\n" +\
+  print((str(datetime.datetime.now())).split('.')[0] +\ 
+    "\n" +\
     "{:}, hello!\n".format(name) +\
     "Welcome to 7V_SPACE.")
   
